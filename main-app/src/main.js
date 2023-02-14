@@ -9,7 +9,7 @@ function registerMicroAppsMain() {
       name: 'childApp',
       entry: '//localhost:8081',
       container: '#container',
-      activeRule: '/child-app',
+      activeRule: '/',
     }
   ])
   start({
